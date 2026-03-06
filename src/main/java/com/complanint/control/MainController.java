@@ -13,3 +13,13 @@ public class MainController {
 
 
 }
+
+
+//회원가입, 로그인, 민원글 작성, 민원글목록 , 민원글 수정 , 삭제
+//민원글 답변, 답변에 질문을 작성하고 또 답변 달고 하는구조로
+//지금까지 수업한거 spring boot  하면서
+//CONTROL, repository, DTO, view(html)
+//thymeleaf, mybatis, maven
+//지금 프로젝트에서 할거
+// gradle, validation, security , service , layout
+//1.layout , 2.val ,3.service,  4.
