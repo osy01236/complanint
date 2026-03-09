@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.complanint.Repository.ReplayRepo">
+
+    <select id="findById" resultType="com.complanint.Entity.ComplainRelay">
+
+        select * from complain_replay
+        where complain_id = #{id};
+
+
+    </select>
+
+
+
+</mapper>
